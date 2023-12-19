@@ -30,3 +30,12 @@ settings/firehose storage ufs
 xmls= rawprogram0,1,1,2,3,4,5 patch01,1,2,3,4,5
 
 plug edl mod, click download
+
+
+Root:
+
+select init_boot.img in magisk
+
+flashing in fastbootd
+
+fastboot flash init_boot init_boot.img
